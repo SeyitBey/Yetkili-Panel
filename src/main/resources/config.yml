@@ -1,0 +1,17 @@
+debug: false
+language: "tr"
+security:
+  prevent-self-action: true
+  explicit-deny-priority: true
+  ip-permission-node: "adminpanel.profile.ip"
+punishment:
+  provider: "AUTO"
+freeze:
+  prevent-movement: true
+  prevent-block-break: true
+  prevent-block-place: true
+  prevent-item-drop: true
+  prevent-commands: true
+  allowed-commands:
+    - "/helpop"
+    - "/msg"

@@ -1,0 +1,10 @@
+type: "SQLITE"
+sqlite:
+  file: "adminpanel.db"
+  use-wal-mode: true
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "adminpanel"
+  username: "root"
+  password: ""
